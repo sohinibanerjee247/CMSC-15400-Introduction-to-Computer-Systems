@@ -1,0 +1,52 @@
+sohinib p1bitmanip grade: 105/105 
+ 
+https://phoenixforge.cs.uchicago.edu/svn/sohinib-cs154-win-23/p1bitmanip 
+Grading revision: 21 
+
+$ make
+/usr/local/gcc/5.5.0/bin/gcc -O -Wall -lm -o btest bits.c btest.c decl.c tests.c
+/usr/local/gcc/5.5.0/bin/gcc -O -Wall -o ishow ishow.c
+
+$ ./driver.pl
+1. Running './dlc -z' to identify coding rules violations.
+
+2. Compiling and running './btest -g' to determine correctness score.
+/usr/local/gcc/5.5.0/bin/gcc -O -Wall -lm -o btest bits.c btest.c decl.c tests.c 
+
+3. Running './dlc -Z' to identify operator count violations.
+
+4. Compiling and running './btest -g -r 2' to determine performance score.
+/usr/local/gcc/5.5.0/bin/gcc -O -Wall -lm -o btest bits.c btest.c decl.c tests.c 
+
+
+5. Running './dlc -e' to get operator count of each function.
+
+Correctness Results	Perf Results
+Points	Rating	Errors	Points	Ops	Puzzle
+4	4	0	2	6	absVal
+3	3	0	2	11	addOK
+2	2	0	2	10	allEvenBits
+2	2	0	2	9	anyOddBit
+4	4	0	2	10	bang
+1	1	0	2	4	bitOr
+4	4	0	2	20	bitParity
+2	2	0	2	19	byteSwap
+2	2	0	2	2	copyLSB
+2	2	0	2	7	fitsBits
+2	2	0	2	3	getByte
+4	4	0	2	37	howManyBits
+2	2	0	2	4	implication
+3	3	0	2	13	isAsciiDigit
+2	2	0	2	2	isEqual
+2	2	0	2	4	isNegative
+4	4	0	2	11	isPower2
+1	1	0	2	7	isTmin
+1	1	0	2	2	minusOne
+3	3	0	2	6	multFiveEighths
+3	3	0	2	12	rempwr2
+3	3	0	2	11	rotateLeft
+3	3	0	2	17	satMul3
+
+Score = 105/105 [59/59 Corr + 46/46 Perf] (227 total operators)
+
+Final Grade: 105/105

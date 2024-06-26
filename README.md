@@ -1,1 +1,2 @@
 # CMSC-15400-Introduction-to-Computer-Systems
+This course covers the basics of computer systems from a programmer's perspective. Topics include data representation, machine language programming, exceptions, code optimization, performance measurement, memory systems, and system-level I/O. Extensive programming required.

@@ -1,0 +1,12 @@
+sohinib p2bomb grade: 40/40
+
+bomb23:
+  Phases Defused:   7
+  Explosions:       0
+  Bomb Score:       40
+
+bomb15:
+  Phases Defused:   0
+  Explosions:       2
+  Bomb Score:       0
+
